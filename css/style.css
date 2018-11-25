@@ -60,3 +60,7 @@ p {
 .info1 {
     margin-top: 90px;
 }
+
+#message {
+    height: 5rem;
+}
