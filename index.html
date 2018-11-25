@@ -48,7 +48,8 @@
                     <div class="showcase-right">
                         <h1>Hands-free help form the Google Assistant</h1>
                         <p>Google Home voice activated speaker. Kinda creepy Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque iure modi eum laboriosam enim velit maxime qui quaerat maiores, esse provident? Molestias modi hic vitae dolorem odit nihil quo.</p>
-                        <a href="" class="btn btn-default btn-lg showcase-btn">Read More</a>
+                        <br>
+                        <a href="" class="btn btn-outline-primary btn-lg showcase-btn">Read More</a>
                     </div>
                 </div>    
             </div>
@@ -74,7 +75,7 @@
                     <div class="info-right">
                         <h2>Get to Know Google Home</h2>
                         <p>Step on your keyboard while you're gaming and then turn in a circle sweet beast dont wait for the storm to pass, dance in the rain bring your owner a dead bird.</p>
-                        <a href="" class="btn btn-default btn-lg">Read More</a>
+                        <a href="" class="btn btn-outline-primary btn-lg">Read More</a>
                     </div>             
                 </div>
             </div>
@@ -138,5 +139,34 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('.showcase-left', {
+            duration: 2000,
+            origin: 'top',
+            distance: '50px'
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('.showcase-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: '50px'
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('.showcase-btn', {
+            duration: 2000,
+            origin: 'bottom',
+            delay: 2000
+        });
+
+
+
+    </script>
 </body>
 </html>
