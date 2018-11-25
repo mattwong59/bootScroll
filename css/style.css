@@ -61,6 +61,15 @@ p {
     margin-top: 90px;
 }
 
-#message {
-    height: 5rem;
+.info2 {
+    margin: 20px 0 60px 0; 
+}
+
+.contact {
+    background: url(../img/google4.jpeg);
+    color: #fff;
+    padding:40px;
+    border-top: #333 7px solid;
+    border-bottom: #333 7px solid;
+
 }
