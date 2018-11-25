@@ -1,11 +1,12 @@
 body {
     margin-top: 100px;
     background: #fff;
+    font-size: 16px;
 
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -14,7 +15,7 @@ p {
 
 .navbar {
     background: #fff;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-brand {
@@ -42,4 +43,20 @@ p {
     padding: 50px 0 30px 0;
     text-align: center;
     margin-top: 40px;
+}
+
+.testimonial p {
+    font-size: 32px;
+    font-family: 'Joefin Sans', sans-serif;
+    font-weight: 100;
+    color: #000;
+}
+
+.testimonial p.customer {
+    font-size: 20px;
+    color: #666;
+}
+
+.info1 {
+    margin-top: 90px;
 }
