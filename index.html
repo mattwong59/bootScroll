@@ -24,13 +24,13 @@
         <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="showcase">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#showcase">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="info1">Info</a>
+                <a class="nav-link" href="#info1">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
             </ul>
         </div>
@@ -56,14 +56,14 @@
         </div>
     </section>
 
-    <section class="testimonial">
+    <section id="testimonial">
         <div class="container">
             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam recusandae, eius corporis consequatur eum consectetur officiis accusantium, nam ex cum doloremque animi, doloribus laudantium rerum nobis exercitationem dicta repellendus incidunt!"</p>
             <p class="customer">- Louie Manx</p>
         </div>
     </section>
 
-    <section class="info1">
+    <section id="info1">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
@@ -102,7 +102,7 @@
             </div>
         </section>
 
-        <section class="contact">
+        <section id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-5">
@@ -168,6 +168,7 @@
         sr.reveal('.testimonial div', {
             duration: 2000,
             origin: 'bottom',
+            distance: '10px'
         });
         window.sr = ScrollReveal();
         sr.reveal('.info-left', {
