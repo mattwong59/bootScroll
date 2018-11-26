@@ -22,7 +22,7 @@ window.sr = ScrollReveal();
             delay: 2000
         });
         window.sr = ScrollReveal();
-        sr.reveal('.testimonial div', {
+        sr.reveal('#testimonial div', {
             duration: 2000,
             origin: 'bottom',
             distance: '10px'
